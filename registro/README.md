@@ -18,5 +18,5 @@
 | apellido | string | NO | El apellido del proveedor que se está creando. |
 | empresa | string | SI | La empresa a la que pertenece el proveedor que se está creando. |
 | email | string | SI | El correo electrónico del proveedor que se está creando. Este se utilizará para el inicio de sesión. |
-| contrasena | string | SI | La contraseña del proveedor que se está creand; debe de ir en texto plano (sin encriptar). |
+| contrasena | string | SI | La contraseña del proveedor que se está creando; debe de ir en texto plano (sin encriptar). |
 | direccion | string | NO | La dirección del proveedor que se está creando. |
