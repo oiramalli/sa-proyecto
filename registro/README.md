@@ -6,7 +6,7 @@
 | ------ | ------ | ------ | ------ |
 | nombre | string | SI | El nombre del cliente que se está creando. |
 | apellido | string | NO | El apellido del cliente que se está creando. |
-| email | string | SI | El correo electronico del cliente que se está creando. Este se utilizará para el inicio de sesión |
+| email | string | SI | El correo electrónico del cliente que se está creando. Este se utilizará para el inicio de sesión |
 | contrasena | string | SI | La contraseña del cliente que se está creando; debe de ir en texto plano (sin encriptar). |
 | celular | number | NO | El número de celular del cliente que se está creando. |
 
