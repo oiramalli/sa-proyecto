@@ -12,7 +12,9 @@
 
 ### Ejemplos
 
-Petición éxitosa:
+##### Petición éxitosa:
+
+Petición
 
 ``` sh
 curl --request POST --header Content-Type:application/json --data '{"nombre":"Eder", "apellido":"García", "email":"eder@usac.com", "contrasena":"SuperSegura", "celular":12345678}' "http://<URL_BUS>/registrar-cliente"
@@ -39,7 +41,9 @@ Respuesta:
 
 ```
 
-Petición incompleta:
+##### Petición incompleta:
+
+Petición
 
 ``` sh
 curl --request POST --header Content-Type:application/json --data '{"nombre":"Eder", "apellido":"García", "email":"eder@usac.com"}' "http://<URL_BUS>/registrar-cliente"
@@ -56,7 +60,9 @@ Respuesta:
 
 ```
 
-Petición Fallida:
+#### Petición Fallida (Error manejable):
+
+Petición
 
 ``` sh
 curl --request POST --header Content-Type:application/json --data '{"nombre":"Eder", "apellido":"García", "email":"eder@usac.com", "contrasena":"SuperSegura", "celular":12345678}' "http://<URL_BUS>/registrar-cliente"
@@ -71,7 +77,9 @@ Respuesta:
 
 ```
 
-Petición Fallida:
+#### Petición Fallida (Error no manejable):
+
+Petición
 
 ``` sh
 curl --request POST --header Content-Type:application/json --data '{"nombre":"Otro", "apellido":"Usuario", "email":"usuario@usac.com", "contrasena":"SuperSegura", "celular":12345678}' "http://<URL_BUS>/registrar-cliente"
