@@ -9,7 +9,11 @@
 | email | string | SI | El correo electronico del cliente que se está creando. Este se utilizará para el inicio de sesión |
 | contrasena | string | SI | La contraseña del cliente que se está creand; debe de ir en texto plano (sin encriptar). |
 | celular | number | NO | El número de celular del cliente que se está creando. |
+Ejemplo de la petición:
 
+``` sh
+curl --request POST --header Content-Type:application/json --data '{"nombre":"Eder", "apellido":"García", "email":"eder@usac.com", "contrasena":"SuperSegura", "celular":12345678}' "http://<URL_BUS>/registrar-cliente"
+```
 ## Registrar Proveedor <a name="registrar-proveedor"></a>
 `POST /registrar-proveedor`
 | Atributo | Tipo | Requerido | Descripción |
