@@ -12,7 +12,7 @@
 
 ### Ejemplos
 
-##### Petición éxitosa:
+#### Petición éxitosa:
 
 Petición
 
@@ -41,7 +41,7 @@ Respuesta:
 
 ```
 
-##### Petición incompleta:
+#### Petición incompleta:
 
 Petición
 
