@@ -32,7 +32,7 @@ Respuesta:
 
 ``` json
 // 200
- {
+{
     "status": "success",
 
     "data": {
@@ -44,7 +44,7 @@ Respuesta:
         "celular":12345678
     },
  
-    "message": "Usuario creado de manera exitosa.",
+    "message": "Usuario creado de manera exitosa."
 }
 
 ```
@@ -68,9 +68,9 @@ Respuesta:
 
 ``` json
 // 400
- {
+{
     "status": "fail",
-    "message": "No se encontró el campo obligatorio 'contrasena'.",
+    "message": "No se encontró el campo obligatorio 'contrasena'."
 }
 
 ```
@@ -93,9 +93,9 @@ curl --request POST 'http://<URL_BUS>/registrar-cliente' \
 Respuesta:
 ``` json
 // 409
- {
+{
     "status": "error",
-    "message": "Ya existe un usuario registrado con ese correo electrónico.",
+    "message": "Ya existe un usuario registrado con ese correo electrónico."
 }
 
 ```
@@ -118,9 +118,9 @@ curl --request POST 'http://<URL_BUS>/registrar-cliente' \
 Respuesta:
 ``` json
 // 500
- {
+{
     "status": "error",
-    "message": "Ocurrió un error inesperado.",
+    "message": "Ocurrió un error inesperado."
 }
 
 ```
@@ -148,7 +148,7 @@ curl --request POST 'http://<URL_BUS>/registrar-proveedor' \
     "nombre":"Eder",
     "apellido":"García",
     "empresa":"USAC",
-    "email":"eder@usac.com",
+    "email":"eder@proveedor.com",
     "contrasena":"SuperSegura",
     "empresa":"Ciudad universitaria (USAC) Campus Central Z12."
 }' 
@@ -158,7 +158,7 @@ Respuesta:
 
 ``` json
 // 200
- {
+{
     "status": "success",
 
     "data": {
@@ -166,12 +166,12 @@ Respuesta:
         "nombre":"Eder",
         "apellido":"García",
         "empresa":"USAC",
-        "email":"eder@usac.com",
+        "email":"eder@proveedor.com",
         "contrasena":"SuperSegura",
         "empresa":"Ciudad universitaria (USAC) Campus Central Z12."
     },
  
-    "message": "Usuario creado de manera exitosa.",
+    "message": "Usuario creado de manera exitosa."
 }
 ```
 
@@ -194,9 +194,9 @@ Respuesta:
 
 ``` json
 // 400
- {
+{
     "status": "fail",
-    "message": "No se encontró el campo obligatorio 'email'. No se encontró el campo obligatorio 'contrasena'.",
+    "message": "No se encontró el campo obligatorio 'email'. No se encontró el campo obligatorio 'contrasena'."
 }
 ```
 
@@ -211,7 +211,7 @@ curl --request POST 'http://<URL_BUS>/registrar-proveedor' \
     "nombre":"Eder",
     "apellido":"García",
     "empresa":"USAC",
-    "email":"eder@usac.com",
+    "email":"eder@proveedor.com",
     "contrasena":"SuperSegura",
     "empresa":"Ciudad universitaria (USAC) Campus Central Z12."
 }' 
@@ -219,9 +219,9 @@ curl --request POST 'http://<URL_BUS>/registrar-proveedor' \
 Respuesta:
 ``` json
 // 409
- {
+{
     "status": "error",
-    "message": "Ya existe un usuario registrado con ese correo electrónico.",
+    "message": "Ya existe un usuario registrado con ese correo electrónico."
 }
 ```
 
@@ -236,7 +236,7 @@ curl --request POST 'http://<URL_BUS>/registrar-proveedor' \
     "nombre":"Otro",
     "apellido":"Usuario",
     "empresa":"USAC",
-    "email":"otro@usac.com",
+    "email":"otro@proveedor.com",
     "contrasena":"SuperSegura",
     "empresa":"Ciudad universitaria (USAC) Campus Central Z12."
 }' 
@@ -244,8 +244,8 @@ curl --request POST 'http://<URL_BUS>/registrar-proveedor' \
 Respuesta:
 ``` json
 // 500
- {
+{
     "status": "error",
-    "message": "Ocurrió un error inesperado.",
+    "message": "Ocurrió un error inesperado."
 }
 ```
