@@ -19,7 +19,7 @@ Petición
 ``` sh
 curl --request POST 'http://<URL_BUS>/registrar-cliente' \
 --header 'Content-Type:application/json' \
---data '{
+--data-raw '{
     "nombre":"Eder",
     "apellido":"García",
     "email":"eder@usac.com",
@@ -56,7 +56,7 @@ Petición
 ``` sh
 curl --request POST 'http://<URL_BUS>/registrar-cliente' \
 --header 'Content-Type:application/json' \
---data '{
+--data-raw '{
     "nombre":"Eder",
     "apellido":"García",
     "email":"eder@usac.com",
@@ -82,7 +82,7 @@ Petición
 ``` sh
 curl --request POST 'http://<URL_BUS>/registrar-cliente' \
 --header 'Content-Type:application/json' \
---data '{
+--data-raw '{
     "nombre":"Eder",
     "apellido":"García",
     "email":"eder@usac.com",
@@ -107,7 +107,7 @@ Petición
 ``` sh
 curl --request POST 'http://<URL_BUS>/registrar-cliente' \
 --header 'Content-Type:application/json' \
---data '{
+--data-raw '{
     "nombre":"Otro",
     "apellido":"Usuario",
     "email":"usuario@usac.com",
@@ -144,7 +144,7 @@ Petición
 ``` sh
 curl --request POST 'http://<URL_BUS>/registrar-proveedor' \
 --header 'Content-Type:application/json' \
---data '{
+--data-raw '{
     "nombre":"Eder",
     "apellido":"García",
     "empresa":"USAC",
@@ -182,7 +182,7 @@ Petición
 ``` sh
 curl --request POST 'http://<URL_BUS>/registrar-proveedor' \
 --header 'Content-Type:application/json' \
---data '{
+--data-raw '{
     "nombre":"Eder",
     "apellido":"García",
     "empresa":"USAC",
@@ -207,7 +207,7 @@ Petición
 ``` sh
 curl --request POST 'http://<URL_BUS>/registrar-proveedor' \
 --header 'Content-Type:application/json' \
---data '{
+--data-raw '{
     "nombre":"Eder",
     "apellido":"García",
     "empresa":"USAC",
@@ -232,7 +232,7 @@ Petición
 ``` sh
 curl --request POST 'http://<URL_BUS>/registrar-proveedor' \
 --header 'Content-Type:application/json' \
---data '{
+--data-raw '{
     "nombre":"Otro",
     "apellido":"Usuario",
     "empresa":"USAC",

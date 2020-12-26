@@ -16,7 +16,7 @@ Petición
 ``` sh
 curl --request POST 'http://<URL_BUS>/login-cliente' \
 --header 'Content-Type:application/json' \
---data '{
+--data-raw '{
     "email":"eder@usac.com",
     "contrasena":"SuperSegura"
 }' 
@@ -48,7 +48,7 @@ Petición
 ``` sh
 curl --request POST 'http://<URL_BUS>/login-cliente' \
 --header 'Content-Type:application/json' \
---data '{
+--data-raw '{
     "email":"eder@usac.com"
 }' 
 ```
@@ -71,7 +71,7 @@ Petición
 ``` sh
 curl --request POST 'http://<URL_BUS>/login-cliente' \
 --header 'Content-Type:application/json' \
---data '{
+--data-raw '{
     "email":"nadie@usac.com",
     "contrasena":"SuperSegura",
 }' 
@@ -93,7 +93,7 @@ Petición
 ``` sh
 curl --request POST 'http://<URL_BUS>/login-cliente' \
 --header 'Content-Type:application/json' \
---data '{
+--data-raw '{
     "email":"eder@usac.com",
     "contrasena":"SuperSegura"
 }' 
@@ -123,7 +123,7 @@ Petición
 ``` sh
 curl --request POST 'http://<URL_BUS>/login-cliente' \
 --header 'Content-Type:application/json' \
---data '{
+--data-raw '{
     "email":"eder@proveedor.com",
     "contrasena":"SuperSegura"
 }' 
@@ -156,7 +156,7 @@ Petición
 ``` sh
 curl --request POST 'http://<URL_BUS>/login-cliente' \
 --header 'Content-Type:application/json' \
---data '{
+--data-raw '{
     "email":"eder@proveedor.com"
 }' 
 ```
@@ -179,7 +179,7 @@ Petición
 ``` sh
 curl --request POST 'http://<URL_BUS>/login-cliente' \
 --header 'Content-Type:application/json' \
---data '{
+--data-raw '{
     "email":"nadie@proveedor.com",
     "contrasena":"SuperSegura",
 }' 
@@ -201,7 +201,7 @@ Petición
 ``` sh
 curl --request POST 'http://<URL_BUS>/login-cliente' \
 --header 'Content-Type:application/json' \
---data '{
+--data-raw '{
     "email":"eder@proveedor.com",
     "contrasena":"SuperSegura"
 }' 
