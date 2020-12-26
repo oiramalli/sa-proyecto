@@ -121,7 +121,7 @@ Respuesta:
 Petición
 
 ``` sh
-curl --request POST 'http://<URL_BUS>/login-cliente' \
+curl --request POST 'http://<URL_BUS>/login-proveedor' \
 --header 'Content-Type:application/json' \
 --data-raw '{
     "email":"eder@proveedor.com",
@@ -154,7 +154,7 @@ Respuesta:
 Petición
 
 ``` sh
-curl --request POST 'http://<URL_BUS>/login-cliente' \
+curl --request POST 'http://<URL_BUS>/login-proveedor' \
 --header 'Content-Type:application/json' \
 --data-raw '{
     "email":"eder@proveedor.com"
@@ -177,7 +177,7 @@ Respuesta:
 Petición
 
 ``` sh
-curl --request POST 'http://<URL_BUS>/login-cliente' \
+curl --request POST 'http://<URL_BUS>/login-proveedor' \
 --header 'Content-Type:application/json' \
 --data-raw '{
     "email":"nadie@proveedor.com",
@@ -199,7 +199,7 @@ Respuesta:
 Petición
 
 ``` sh
-curl --request POST 'http://<URL_BUS>/login-cliente' \
+curl --request POST 'http://<URL_BUS>/login-proveedor' \
 --header 'Content-Type:application/json' \
 --data-raw '{
     "email":"eder@proveedor.com",
