@@ -150,7 +150,7 @@ curl --request POST 'http://<URL_BUS>/registrar-proveedor' \
     "empresa":"USAC",
     "email":"eder@proveedor.com",
     "contrasena":"SuperSegura",
-    "empresa":"Ciudad universitaria (USAC) Campus Central Z12."
+    "direccion":"Ciudad universitaria (USAC) Campus Central Z12."
 }' 
 ```
 
@@ -168,7 +168,7 @@ Respuesta:
         "empresa":"USAC",
         "email":"eder@proveedor.com",
         "contrasena":"SuperSegura",
-        "empresa":"Ciudad universitaria (USAC) Campus Central Z12."
+        "direccion":"Ciudad universitaria (USAC) Campus Central Z12."
     },
  
     "message": "Usuario creado de manera exitosa."
@@ -186,7 +186,7 @@ curl --request POST 'http://<URL_BUS>/registrar-proveedor' \
     "nombre":"Eder",
     "apellido":"García",
     "empresa":"USAC",
-    "empresa":"Ciudad universitaria (USAC) Campus Central Z12."
+    "direccion":"Ciudad universitaria (USAC) Campus Central Z12."
 }' 
 ```
 
@@ -213,7 +213,7 @@ curl --request POST 'http://<URL_BUS>/registrar-proveedor' \
     "empresa":"USAC",
     "email":"eder@proveedor.com",
     "contrasena":"SuperSegura",
-    "empresa":"Ciudad universitaria (USAC) Campus Central Z12."
+    "direccion":"Ciudad universitaria (USAC) Campus Central Z12."
 }' 
 ```
 Respuesta:
@@ -238,7 +238,7 @@ curl --request POST 'http://<URL_BUS>/registrar-proveedor' \
     "empresa":"USAC",
     "email":"otro@proveedor.com",
     "contrasena":"SuperSegura",
-    "empresa":"Ciudad universitaria (USAC) Campus Central Z12."
+    "direccion":"Ciudad universitaria (USAC) Campus Central Z12."
 }' 
 ```
 Respuesta:
