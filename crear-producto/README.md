@@ -45,7 +45,7 @@ Respuesta:
 {
     "status": "success",
     "data": {
-        "id_cliente": 1,
+        "id_producto": 1,
         "nombre": "Monitor LGU32",
         "descripcion": "Monitor LG de 32 pulgadas 4k@240HZ",
         "stock": 50,
@@ -85,7 +85,7 @@ Respuesta:
 {
     "status": "success",
     "data": {
-        "id_cliente": 1,
+        "id_producto": 1,
         "nombre": "Monitor LGU32",
         "descripcion": "Monitor LG de 32 pulgadas 4k@240HZ",
         "stock": 50,
@@ -126,7 +126,7 @@ Respuesta:
 {
     "status": "success",
     "data": {
-        "id_cliente": 1,
+        "id_producto": 1,
         "nombre": "Monitor LGU32",
         "descripcion": "Monitor LG de 32 pulgadas 4k@240HZ",
         "stock": 50,
@@ -240,7 +240,7 @@ Respuesta:
 {
     "status": "success",
     "data": {
-        "id_proveedor": 1,
+        "id_producto": 1,
         "nombre": "Monitor LGU32",
         "descripcion": "Monitor LG de 32 pulgadas 4k@240HZ",
         "stock": 50,
@@ -280,7 +280,7 @@ Respuesta:
 {
     "status": "success",
     "data": {
-        "id_proveedor": 1,
+        "id_producto": 1,
         "nombre": "Monitor LGU32",
         "descripcion": "Monitor LG de 32 pulgadas 4k@240HZ",
         "stock": 50,
@@ -321,7 +321,7 @@ Respuesta:
 {
     "status": "success",
     "data": {
-        "id_proveedor": 1,
+        "id_producto": 1,
         "nombre": "Monitor LGU32",
         "descripcion": "Monitor LG de 32 pulgadas 4k@240HZ",
         "stock": 50,
