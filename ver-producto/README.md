@@ -1,6 +1,6 @@
 # Ver Productos
 
-## Ver todos los productos <a name="ver-productos"></a>
+## Ver todos los productos <a name="ver-todos-los-productos"></a>
 `GET /ver-productos`
 
 Ver todos los productos de todas las categorías.
