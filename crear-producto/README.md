@@ -195,6 +195,7 @@ Respuesta:
     "status": "error",
     "message": "Ocurrió un error inesperado."
 }
+```
 
 ## Crear Producto Proveedor <a name="crear-producto-proveedor"></a>
 `POST /crear-producto-proveedor`
