@@ -143,7 +143,7 @@ Respuesta:
         "empresa":"USAC",
         "email":"eder@proveedor.com",
         "contrasena":"SuperSegura",
-        "empresa":"Ciudad universitaria (USAC) Campus Central Z12."
+        "direccion":"Ciudad universitaria (USAC) Campus Central Z12."
     },
     "message": "Usuario autenticado de manera exitosa."
 }
