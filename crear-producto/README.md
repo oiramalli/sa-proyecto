@@ -16,6 +16,8 @@ Todos los productos se deberán de crear en una categoría predeterminada, se su
 | precio_inicial_subasta | number | NO | Precio inicial de la subasta. ** |
 | precio_compralo_ahora | number | NO | Precio de "Comprar ahora". ** |
 
+***Nota: Los campos `fecha_subasta`, `precio_inicial_subasta` y `precio_compralo_ahora` forman parte del paylod por motivos de compatibilidad únicamente. NO se implementará ninguna funcionalidad de subastas entre grupos.***
+
 \* Se utilizará UNIX timestamp (en segundos) ya que este no depende de zona horaria. Cada grupo deberá de ser responzable del manejo de la fecha en frontend y backend.
 
 \*\* De no existir `precio_venta` en el payload, `fecha_subasta`, `precio_inicial_subasta` y `precio_compralo_ahora` se vuelven obligatorios
@@ -210,6 +212,8 @@ Respuesta:
 | fecha_subasta | timestamp | NO | Fecha en la que se terminará la subasta en forma de UNIX timestamp (En segundos).*, ** |
 | precio_inicial_subasta | number | NO | Precio inicial de la subasta. ** |
 | precio_compralo_ahora | number | NO | Precio de "Comprar ahora". ** |
+
+***Nota: Los campos `fecha_subasta`, `precio_inicial_subasta` y `precio_compralo_ahora` forman parte del paylod por motivos de compatibilidad únicamente. NO se implementará ninguna funcionalidad de subastas entre grupos.***
 
 \* Se utilizará UNIX timestamp (en segundos) ya que este no depende de zona horaria. Cada grupo deberá de ser responzable del manejo de la fecha en frontend y backend.
 
