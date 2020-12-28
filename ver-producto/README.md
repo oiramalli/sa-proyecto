@@ -59,9 +59,10 @@ Respuesta:
 }
 ```
 
-## Ver productos de categoría `Fase 3` <a name="ver-productos-fase-3"></a>
-`GET /ver-productos-fase-3`
+## Ver productos de categoría 'Fase 3' (Descontinuado) <a name="ver-productos-fase-3"></a>
+`GET /ver-productos-fase-3 (DESCONTINUADO)`
 
+***Este endpoint ya no será implementado. Se utilizará `/ver-productos` en su lugar; cada grupo puede hacer un filtrado de categorías de manera independiente para poder ver los productos creados mediante integración entre grupos.***
 Todos los productos de la categoría predeterminada, se sugiere el nombre "Fase 3" para esta categoría.
 
 #### Petición exitosa
