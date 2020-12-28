@@ -1,5 +1,7 @@
 # Ver Productos
 
+El `precio_venta` que se enviará del servidor al cliente ya debe de tener incluído el 10% de recargo.
+
 ## Ver todos los productos <a name="ver-todos-los-productos"></a>
 `GET /ver-productos`
 
